@@ -1,0 +1,6 @@
+selector:
+  matchExpressions:
+  - key: app
+    operator: In
+    values:
+    - kubia

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubia-node3
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: wornode3.example.com
+  containers:
+  - image: luksa/kubia
+    name: kubia
